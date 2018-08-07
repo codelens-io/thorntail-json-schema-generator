@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Build Status](https://travis-ci.org/codelens-io/thorntail-json-schema-generator.svg?branch=master)](https://travis-ci.org/codelens-io/thorntail-json-schema-generator)
 
 # Thorntail (*formely wildfly-swarm*) configuration schema generator
 
@@ -16,7 +17,7 @@ To generate schema files build the project, and run the jar:
 ```
 $ mvn clean package
 $ cd target;
-$ java -jar thorntail-json-schema-generator-1.0.0-SNAPSHOT.jar 2.0.0 ~/Developer/thorntail
+$ java -jar thorntail-json-schema-generator-1.0.0.jar 2.0.0 ~/Developer/thorntail
 
 Thorntail schema generator
 ============================================================
