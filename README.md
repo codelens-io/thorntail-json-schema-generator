@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Build Status](https://travis-ci.org/codelens-io/thorntail-json-schema-generator.svg?branch=master)](https://travis-ci.org/codelens-io/thorntail-json-schema-generator)
 
-# Thorntail (*formely wildfly-swarm*) configuration schema generator
+# Thorntail (*formerly wildfly-swarm*) configuration schema generator
 
 This utility can be used to generate a **JSON Schema** which can be used to validate
 **[Thorntail](https://thorntail.io)** (*[wildfly-swarm](http://wildfly-swarm.io)*) `YAML` configuration files (eg.: `project-defaults.yml`).
