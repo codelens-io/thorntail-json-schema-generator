@@ -1,5 +1,6 @@
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Build Status](https://travis-ci.org/codelens-io/thorntail-json-schema-generator.svg?branch=master)](https://travis-ci.org/codelens-io/thorntail-json-schema-generator)
+[Coverage Status](https://coveralls.io/repos/github/codelens-io/thorntail-json-schema-generator/badge.svg)](https://coveralls.io/github/codelens-io/thorntail-json-schema-generator)
 
 # Thorntail (*formerly wildfly-swarm*) configuration schema generator
 
