@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/:license-Apache2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Build Status](https://travis-ci.org/codelens-io/thorntail-json-schema-generator.svg?branch=master)](https://travis-ci.org/codelens-io/thorntail-json-schema-generator)
 [![Coverage Status](https://coveralls.io/repos/github/codelens-io/thorntail-json-schema-generator/badge.svg?branch=master)](https://coveralls.io/github/codelens-io/thorntail-json-schema-generator?branch=master)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.codelens/thorntail-json-schema-generator/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.codelens/thorntail-json-schema-generator)
 
 # Thorntail (*formerly wildfly-swarm*) configuration schema generator
 
@@ -9,20 +10,22 @@ This utility can be used to generate a **JSON Schema** which can be used to vali
 
 The currently generated schema files can be downloaded from [the releases page](https://github.com/codelens-io/thorntail-json-schema-generator/releases)
 
-* thorntail-schema-2.0.0.json
-* thorntail-schema-2.0.0-compact.json
-* thorntail-schema-2.0.0.properties
+* thorntail-schema-2.1.0.json
+* thorntail-schema-2.1.0-compact.json
+* thorntail-schema-2.1.0.properties
+
+## Usage
 
 To generate schema files build the project, and run the jar:
 
 ```
 $ mvn clean package
 $ cd target;
-$ java -jar thorntail-json-schema-generator-1.0.0.jar 2.0.0 ~/Developer/thorntail
+$ java -jar thorntail-json-schema-generator-1.1.0.jar 2.1.0 ~/Developer/thorntail
 
 Thorntail schema generator
 ============================================================
-version: 2.0.0
+version: 2.1.0
 output directory: /Users/user/Developer/thorntail/
 building schema model...
 writing schema files...
@@ -37,7 +40,11 @@ validate the configuration file, ot the validation can be done with other comman
 like: [pajv](https://www.npmjs.com/package/pajv)
 
 ```
-pajv -s path/to/thorntail-schema-2.0.0.json -d path/to/project-defaults.yml
+pajv -s path/to/thorntail-schema-2.1.0.json -d path/to/project-defaults.yml
 ```
 
 The utility also builds a `properties` file with the available parameters (*with type and documentation*). 
+
+## License
+
+This project is licensed under [Apache 2.0 license]( http://www.apache.org/licenses/LICENSE-2.0).
