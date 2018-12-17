@@ -35,7 +35,7 @@
     </licenses>
 
     <properties>
-        <thorntail.version>2.1.0.Final</thorntail.version>
+        <thorntail.version>2.2.1.Final</thorntail.version>
         
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
